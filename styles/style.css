@@ -21,10 +21,16 @@ nav {
 
 .navbar a {
   color: #083837 !important;
+  font-size: 20px;
 }
 .navbar a:hover {
   color: #9d442a !important;
   transition: ease-in-out 200ms;
+  border-bottom: 1px solid #9d442a;
+}
+a.navbar-brand {
+  font-size: 40px;
+  margin-left: 20px;
 }
 .container {
   max-width: 1600px !important;
